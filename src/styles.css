@@ -1,10 +1,27 @@
 body {
-  margin-top: 80px;
   background-color: beige;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1,
 p,
-.container {
+footer {
   text-align: center;
+}
+
+.croissant-pic {
+  display: block;
+  margin: 30px auto;
+  max-width: 75%;
+  border-radius: 12px;
+}
+
+footer a {
+  margin: 10px;
+  color: #83580b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
